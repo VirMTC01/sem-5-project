@@ -1,10 +1,15 @@
-import React  from 'react'
-
+import React  from 'react';
+import Home from './pages/Home';
+import Dashboard from './pages/Dashboard';
+import MainPage from './pages/MainPage';
 const App = ()=>{
   return (
     <>
-    <h1>HOME PAGE!</h1>
-    
+      
+     <Home/>
+     <Dashboard/>
+     <MainPage/>
+
     </>
 
   );

@@ -1,10 +1,15 @@
 import React  from 'react';
-
-
+import './dashboard.css'
+import { NavLink } from 'react-router-dom';
 const Dashboard = ()=>{
   return (
     <>
-    <h1>Dashboard PAGE!</h1>   
+      <div id='box'>
+    <h1>Dashboard!</h1>   
+    <NavLink className={'nav'} to={'/'}>Home</NavLink>
+    <NavLink className={'nav'} to={'/Dashboard'}>Dashboard</NavLink>
+    <NavLink className={'nav'} to={'/MainPage'}>Main-Page</NavLink>
+    </div> 
     </>
 
   );

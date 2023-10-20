@@ -1,14 +1,17 @@
-import React  from 'react';
+import React from 'react';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import MainPage from './pages/MainPage';
-const App = ()=>{
+import {  Routes,Route } from 'react-router-dom';
+const App = () => {
   return (
     <>
-      
-     <Home/>
-     <Dashboard/>
-     <MainPage/>
+      <Routes>
+        <Route path='/' Component={Home} />
+        <Route path='/Dashboard' Component={Dashboard} />
+        <Route path='/MainPage' Component={MainPage} />
+      </Routes>
+
 
     </>
 

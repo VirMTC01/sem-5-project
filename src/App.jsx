@@ -3,8 +3,8 @@ import React  from 'react'
 const App = ()=>{
   return (
     <>
-    <h1>helggihlihilo!</h1>
-    cgch
+    <h1>HOME PAGE!</h1>
+    
     </>
 
   );

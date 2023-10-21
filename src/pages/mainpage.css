@@ -1,16 +1,56 @@
-#box3{
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    font-size: 20px;
+    background-color: rgb(236, 228, 214);
+    color: rgb(206, 232, 232);
+    text-decoration: none;
+    font-family: cursive;
+}
+#file-sec{
+    height: 90vh;
+    width: 6vw;
+    background-color: chocolate;
+    display: flex;
+}
+#logo{
+    height: 8vh;
+}
+#code-box{
+    height: 90vh;
+    width: 95vw;
+    background-color: blueviolet;
+    display: flex;
+}
+#main-box{
+    display: flex;
+}
+#editor-container{
+    background-color: crimson;
+    height: 90vh;
+    width: 65vw;
+}
+#output-window{
+    background-color: gold;
+    height: 90vh;
+    width: 30vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(250, 190, 25);
-    color: azure;
 }
-.nav{
-    text-decoration: none;
-    
-    font-family: cursive;
-    
+#output{
+  height: 55vh;
+  width: 30vw;
+ background-color: aqua;
 }
+#input{
+    height: 35vh;
+    width: 30vw;
+   background-color: rgb(0, 0, 255);
+  }

@@ -1,0 +1,16 @@
+#box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(250, 190, 25);
+    color: azure;
+}
+.nav{
+    text-decoration: none;
+    
+    font-family: cursive;
+    
+}

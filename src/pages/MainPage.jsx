@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const MainPage = ()=>{
   return (
     <>
-     <div id='box'>
+     <div id='box3'>
     <h1>Main-Page!!!!</h1>   
     <NavLink className={'nav'} to={'/'}>Home</NavLink>
     <NavLink className={'nav'} to={'/Dashboard'}>Dashboard</NavLink>

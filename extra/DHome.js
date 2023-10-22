@@ -3,10 +3,7 @@ import { v4 as uuidV4 } from 'uuid';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
 
-import './dashboard.css'
-import { NavLink } from 'react-router-dom';
-
-const Dashboard = () => {
+const Home = () => {
     const navigate = useNavigate();
 
     const [roomId, setRoomId] = useState('');
@@ -25,7 +22,7 @@ const Dashboard = () => {
         }
 
         // Redirect
-        navigate(`/MainPage`, {
+        navigate(`/editor/${roomId}`, {
             state: {
                 username,
             },
@@ -40,7 +37,11 @@ const Dashboard = () => {
     return (
         <div className="homePageWrapper">
             <div className="formWrapper">
-                <h1>CODE ROOM</h1>
+                <img
+                    className="homePageLogo"
+                    src="/code-sync.png"
+                    alt="code-sync-logo"
+                />
                 <h4 className="mainLabel">Paste invitation ROOM ID</h4>
                 <div className="inputGroup">
                     <input
@@ -74,8 +75,14 @@ const Dashboard = () => {
                     </span>
                 </div>
             </div>
+            <footer>
+                <h4>
+                    Built with 💛 &nbsp; by &nbsp;
+                    <a href="https://github.com/codersgyan">Coder's Gyan</a>
+                </h4>
+            </footer>
         </div>
     );
 };
 
-export default Dashboard;
+export default Home;

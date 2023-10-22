@@ -2,16 +2,31 @@ import React from 'react';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import MainPage from './pages/MainPage';
-import {  Routes,Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
+
 const App = () => {
   return (
     <>
-      <Routes>
-        <Route path='/' Component={Home} />
-        <Route path='/Dashboard' Component={Dashboard} />
-        <Route path='/MainPage' Component={MainPage} />
-      </Routes>
+      <div>
+        <Toaster
+          position="top-right"
+          toastOptions={{
+            success: {
+              theme: {
+                primary: '#4aed88',
+              },
+            },
+          }}
+        ></Toaster>
+      </div>
 
+        <Routes>
+          <Route path='/' Component={Home} />
+          <Route path='/Dashboard' Component={Dashboard} />
+          <Route path='/MainPage' Component={MainPage} />
+        </Routes>
+      
 
     </>
 

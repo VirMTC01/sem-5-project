@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-#nav-box{
+#header-box{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,8 +14,14 @@
     text-decoration: none;
     font-family: cursive;
 }
+#nav-box{
+    height: 8vh;
+    width: 100vw;
+    background-color: rgb(255, 0, 234);
+    display: flex;
+}
 #file-sec{
-    height: 90vh;
+    height: 82vh;
     width: 6vw;
     background-color: chocolate;
     display: flex;
@@ -24,7 +30,7 @@
     height: 8vh;
 }
 #code-box{
-    height: 90vh;
+    height: 82vh;
     width: 95vw;
     background-color: blueviolet;
     display: flex;
@@ -34,12 +40,12 @@
 }
 #editor-container{
     background-color: crimson;
-    height: 90vh;
+    height: 82vh;
     width: 65vw;
 }
 #output-window{
     background-color: gold;
-    height: 90vh;
+    height: 82vh;
     width: 30vw;
     display: flex;
     flex-direction: column;

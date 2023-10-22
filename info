@@ -1,0 +1,37 @@
+HELLO,EVERYONE THIS IS A ONLINE PROJECT WORKPLACE -A WEB APPLICATION PROJECT MADE IN SEM-5 ENGG. AS A MINI PROJECT.
+IT IS A USEFUL,IMPORTANT,INNOVATIVE AS WELL AS PROBLEM-SOLVING PROJECT.
+
+
+create project setup
+start
+node 
+npm
+--npm install  create-react-app Online-Project-Workplace
+npm init react-app .
+npm start
+
+add-
+npm i react-router-dom
+npm i express
+npm i socket.io
+npm i uuid
+npm i codemirror
+npm i react-avatar
+npm i socket.io-client
+npm install @codemirror/basic-setup
+npm install codemirror@5
+
+
+--realtime code editor added files
+main
+-server.js
+src
+-socket.js
+-actions.js
+-m-app.js
+pages
+-editorpage.js
+-home.js
+components
+-client.js
+-editor.js

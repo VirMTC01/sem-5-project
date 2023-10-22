@@ -40,6 +40,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
     useEffect(() => {
         if (socketRef.current) {
             socketRef.current.on(ACTIONS.CODE_CHANGE, ({ code }) => {
+                console.log('code')
                 if (code !== null) {
                     editorRef.current.setValue(code);
                 }

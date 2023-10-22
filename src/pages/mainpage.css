@@ -60,3 +60,7 @@
     width: 30vw;
    background-color: rgb(0, 0, 255);
   }
+  textarea{
+    height: 35vh;
+    width: 30vw;
+  }
